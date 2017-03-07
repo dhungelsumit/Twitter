@@ -32,10 +32,18 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let titleImageView = UIImageView(image: #imageLiteral(resourceName: "TwitterLogoBlue"))
+       /* let titleImageView = UIImageView(image: #imageLiteral(resourceName: "TwitterLogoBlue"))
         titleImageView.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
         titleImageView.contentMode = .scaleAspectFit
         navigationItem.titleView = titleImageView
+        
+        let button =  UIButton(type: .custom)
+        button.frame = CGRect(x: 0, y: 0, width: 100, height: 40)
+        button.backgroundColor = UIColor.red
+        button.setTitle("Button", for: .normal)
+        button.addTarget(self, action: #selector(self.clickOnButton), for: .touchUpInside)
+        self.navigationItem.titleView = button */
+        
         TwitterClient.sharedInstance?.homeTimeline(
             callBack: { (tweets: [Tweet]?, error: Error?) -> Void in
             if error == nil {
@@ -45,9 +53,14 @@ class HomeViewController: UIViewController {
             }
         })
     }
+    
 
     @IBAction func onLogoutButton(_ sender: Any) {
         TwitterClient.sharedInstance?.logout()
+    }
+    
+    func clickOnButton(button: UIButton) {
+        
     }
     
     override func didReceiveMemoryWarning() {

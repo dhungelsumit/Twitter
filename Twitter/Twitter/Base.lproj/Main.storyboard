@@ -82,7 +82,13 @@
                                     <action selector="onLogoutButton:" destination="Z62-mR-vVA" id="7B2-lk-tJK"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="profile-Icon" id="Drc-QJ-OlH">
+                            <barButtonItem title="       ." id="NXK-eu-3jv">
+                                <connections>
+                                    <action selector="onLogoutButton:" destination="Z62-mR-vVA" id="CoO-T5-7NW"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="TwitterLogo1" width="3" id="Drc-QJ-OlH">
+                                <inset key="imageInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <connections>
                                     <segue destination="zWT-4T-DqL" kind="show" id="9AP-yW-F7E"/>
                                 </connections>
@@ -811,6 +817,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="TwitterLogo1" width="122" height="122"/>
         <image name="TwitterLogoBlue" width="200" height="200"/>
         <image name="account-icon" width="30" height="25"/>
         <image name="back-icon" width="30" height="30"/>
@@ -818,7 +825,6 @@
         <image name="edit-icon" width="30" height="27"/>
         <image name="favor-icon" width="30" height="30"/>
         <image name="pindrop" width="150" height="150"/>
-        <image name="profile-Icon" width="26" height="26"/>
         <image name="profileeeee" width="954" height="88"/>
         <image name="reply-icon" width="30" height="30"/>
         <image name="retweet-icon" width="30" height="30"/>
@@ -827,6 +833,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="9AP-yW-F7E"/>
-        <segue reference="LbU-KH-696"/>
+        <segue reference="IH8-ZA-0OJ"/>
     </inferredMetricsTieBreakers>
 </document>
