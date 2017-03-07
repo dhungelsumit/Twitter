@@ -97,7 +97,7 @@ class ProfileTableViewController: UITableViewController {
         }
         self.nameLabel.text = self.user.name
         self.screenNameLabel.text = "@" + self.user.screenname!
-        self.taglineLabel.text = self.user.tagline
+      //  self.taglineLabel.text = self.user.tagline
         self.numFollowersLabel.text = self.user.followerCountStr
         self.numFollowingLabel.text = self.user.followingCountStr
         

@@ -12,11 +12,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TweetCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="TweetCell" rowHeight="250" id="KGk-i7-Jjw" customClass="TweetTableViewCell" customModule="Twitter" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="399" height="250"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TweetCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="TweetCell" rowHeight="428" id="KGk-i7-Jjw" customClass="TweetTableViewCell" customModule="Twitter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="428"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="399" height="249"/>
+                <rect key="frame" x="0.0" y="0.0" width="399" height="427.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uIO-IE-2RI">
@@ -57,29 +57,29 @@
                         </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YC-U3-acw">
-                        <rect key="frame" x="186" y="149.5" width="63" height="30"/>
+                        <rect key="frame" x="187" y="149.5" width="71" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="Vi4-vF-vgl"/>
                         </constraints>
-                        <state key="normal" title="555" image="retweet-icon">
+                        <state key="normal" title="Retw" image="retweet-icon">
                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFA-Yl-TcU">
-                        <rect key="frame" x="265" y="149.5" width="71" height="30"/>
+                        <rect key="frame" x="274" y="149.5" width="75" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="9Za-hI-UvX"/>
                         </constraints>
-                        <state key="normal" title="1000" image="favor-icon">
+                        <state key="normal" title="Favor" image="favor-icon">
                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEP-4s-wlU">
-                        <rect key="frame" x="92" y="149.5" width="74" height="30"/>
+                        <rect key="frame" x="92" y="149.5" width="75" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="PW1-Ox-mkc"/>
                         </constraints>
-                        <state key="normal" title="2000" image="reply-icon">
+                        <state key="normal" title="Reply" image="reply-icon">
                             <color key="titleColor" red="0.69332370358675266" green="0.69332370358675266" blue="0.69332370358675266" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </state>
                     </button>
@@ -123,7 +123,7 @@
                 <outlet property="tweetTextLabel" destination="ikN-Ji-xgA" id="YA3-fG-M8b"/>
                 <outlet property="userImageView" destination="uIO-IE-2RI" id="Bgs-Gq-ixb"/>
             </connections>
-            <point key="canvasLocation" x="55.5" y="110"/>
+            <point key="canvasLocation" x="55.5" y="21"/>
         </tableViewCell>
     </objects>
     <resources>
